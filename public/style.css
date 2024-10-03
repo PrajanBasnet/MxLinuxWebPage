@@ -9,10 +9,17 @@ body{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
+.mainContain{
+    margin: auto;
+    width: 60%;
+}
+
+/* this is navbar */
 
 .navbar{
+    
     overflow: hidden;
-    background-color: #333;
+    background-color: #222222;
 }
 
 .navbar a{
@@ -22,6 +29,7 @@ body{
     padding: 14px 16px;
     text-decoration: none;
     color: white;
+
 }
 
 .dropdown{
@@ -68,10 +76,7 @@ body{
 
 }
 
-.mainContain{
-    margin: auto;
-    width: 60%;
-}
+
 h1{
     height: 80px;
     margin: 0%;
@@ -103,4 +108,54 @@ button{
 .btn4{
     background-color: #3cbf4c;
     border: 1px solid rgb(92, 86, 86);
+}
+
+.banner {
+    background-color: #114653;
+    padding: 8px;
+    
+    a{
+        margin-right: 13px;
+        text-decoration: none;
+        color: white;
+        font-size: 13px;
+        text-align: center;
+        padding: 3px;
+
+    }
+    .bannerlft{
+        float: right;
+        width: 10%;   
+        letter-spacing: 5px;
+        /* font-size: 13px; */
+    }
+}
+
+/* social media icons */
+
+fa{
+    padding: 20px;
+    font-size:30px;
+    width: 50px;
+    text-align:center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+.fa:hover{
+    opacity: 0.7;
+}
+
+.fa-google{
+    background-color: black;
+}
+
+.fa-facebook{
+    background-color: black;
+}
+.fa-youtube{
+    background-color: black;
+}
+.fa-instargram{
+    background-color: black;
 }
