@@ -159,3 +159,13 @@ fa{
 .fa-instargram{
     background-color: black;
 }
+
+/* for text area */
+textarea{
+    width: 600px;
+    height: 150px;
+}
+input{
+    width: 600px;
+    margin-right: 34px;
+}
