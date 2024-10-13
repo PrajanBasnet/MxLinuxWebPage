@@ -1,3 +1,7 @@
+html{
+    padding: 0%;
+    margin: 0%;
+}
 body{
     padding: 0%;
     margin: 0%;
@@ -8,10 +12,12 @@ body{
     font-size: 18px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-
+label{
+    display: block;
+}
 .mainContain{
     margin: auto;
-    width: 60%;
+    width:80%;
 }
 
 /* this is navbar */
